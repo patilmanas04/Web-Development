@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image, Lists, and Tables in HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Inserting Image in HTML</h1>
+    <img height="200" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/1200px-Marvel_Logo.svg.png" alt="Marvel Logo">
+
+    <h1>Table in HTML</h1>
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Enrollment Number</th>
+                <th>Branch</th>
+                <th>Department</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Manas</td>
+                <td>202203103510235</td>
+                <td colspan="2">BTech CSE</td>
+            </tr>
+            <tr>
+                <td>Anant</td>
+                <td>202203103510103</td>
+                <td>BTech CSE</td>
+                <td rowspan="2">AMTICS</td>
+            </tr>
+            <tr>
+                <td>Yasvi</td>
+                <td>202203103510350</td>
+                <td>BTech CSE</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            This is the footer part of the table
+        </tfoot>
+    </table>
+
+    <h1>Lists in HTML</h1>
+
+    <h2>Unorderd List</h2>
+    <ul type="square">
+        <li>Manas</li>
+        <li>Anant</li>
+        <li>Yasvi</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="I">
+        <li>Manas</li>
+        <li>Yasvi</li>
+        <li>Anant</li>
+    </ol>
+
+    <h2>Defination List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+
+        <dt>JS</dt>
+        <dd>JavaScript</dd>
+    </dl>
+</body>
+</html>
