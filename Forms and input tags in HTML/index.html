@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags in HTML</title>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form action="">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required autofocus>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+        <br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <br><br>
+
+        <label for="comment">Enter your comment: </label><br>
+        <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Enter your comment here..."></textarea>
+
+        <br><br>
+
+        <label for="fruits">Which fruit do you like the most?</label>
+        <select name="fruits" id="fruits">
+            <option value="apple">Apple</option>
+            <option value="Mango">Mango</option>
+            <option value="grapes">Grapes</option>
+        </select>
+
+        <br><br>
+
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">Subscribe to Newsletter</label>
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
